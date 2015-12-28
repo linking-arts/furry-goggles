@@ -1,0 +1,163 @@
+2015-12-28 04:30:43 Error: [MissingViewException] View file "/vagrant/app/app/View/Apis/connect.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/vagrant/app/app/View/Apis/connect.ctp',
+)
+Request URL: /apis/connect
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ApisController), Object(CakeRequest))
+#4 /vagrant/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-12-28 05:02:50 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 35]
+2015-12-28 05:02:50 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:05:17 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'pa@pa.com' for key 'email'
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `da...', Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Model/Datasource/DboSource.php(1010): DboSource->execute('INSERT INTO `da...')
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Model/Model.php(1855): DboSource->create(Object(User), Array, Array)
+#4 /vagrant/app/app/Controller/UsersController.php(63): Model->save(Array)
+#5 [internal function]: UsersController->register()
+#6 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /vagrant/app/Plugin/Crud/Lib/CrudControllerTrait.php(31): Controller->invokeAction(Object(CakeRequest))
+#8 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): AppController->invokeAction(Object(CakeRequest))
+#9 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /vagrant/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-12-28 05:05:37 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 35]
+2015-12-28 05:05:37 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:06:03 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 35]
+2015-12-28 05:06:03 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:06:30 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 35]
+2015-12-28 05:06:30 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 35, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:19:48 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 58]
+2015-12-28 05:19:48 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:20:27 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 58]
+2015-12-28 05:20:27 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:21:05 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 58]
+2015-12-28 05:21:05 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:22:26 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 58]
+2015-12-28 05:22:26 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:22:56 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 58]
+2015-12-28 05:22:56 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:23:33 Error: Fatal Error (1): Cannot break/continue 1 level in [/vagrant/app/app/Controller/ApisController.php, line 58]
+2015-12-28 05:23:33 Error: [FatalErrorException] Cannot break/continue 1 level
+Request URL: /users/register
+Stack Trace:
+#0 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#2 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot break/co...', '/vagrant/app/ap...', 58, Array)
+#3 /vagrant/app/vendor/cakephp/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-12-28 05:23:34 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: /static/img/page-error/tony_500.png
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-28 05:23:34 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: /static/css/main.css
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-28 05:23:36 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: /static/images/icons/favicon.ico
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-12-28 05:23:50 Error: [MissingControllerException] Controller class StaticController could not be found.
+Exception Attributes: array (
+  'class' => 'StaticController',
+  'plugin' => NULL,
+)
+Request URL: /static/css/main.css
+Stack Trace:
+#0 /vagrant/app/webroot/index.php(115): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

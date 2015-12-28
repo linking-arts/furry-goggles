@@ -101,3 +101,4 @@ The application template comes with some dependencies already included in the co
 * [ad7six/dsn](https://github.com/AD7six/php-dsn)
 
 To find out how to make the most of these packages, please read their respective readme files.
+# furry-goggles
