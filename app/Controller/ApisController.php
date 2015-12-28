@@ -48,7 +48,7 @@ class ApisController extends AppController {
             'sourceID'=> 24,
             'reservationTypeID' => $userData['User']['reservation_type_id'],
             'reservations' => array(
-                107931 => array(
+                $userData['User']['reservation_type_id'] => array(
                     "amount" => 0,
         "quantity" => 1
                 )
@@ -81,6 +81,3 @@ class ApisController extends AppController {
 
 }
 
-
-
-curl --data '{"amount": 0,"created": "2015-07-29T18:35:31","customquestions": "","defaultQuestions": {},"email": "pablo.iglesias02+apitest@gmail.com","eventID": 24570,"lastname": "Amazing","name": "Pablo","reservationTypeID": 107931,"reservations": {"107931":{"amount":0,"quantity":1}},"sourceID": 24,"paid": 10}' -H "Content-Type: application/x-www-form-urlencoded" -H 'Authorization : Token 1bb953ed767b88a0965d2bdf328138c58034a701' https://www.boomset.com/restapi/guestlist/add_guest/24570

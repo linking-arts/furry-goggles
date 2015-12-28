@@ -7,7 +7,7 @@
 		echo $this->Form->input('last_name');
 		echo $this->Form->input('email');
 		echo $this->Form->input('reservation_type_id',array('value'=>107931,'type'=>'number'));
-		echo $this->Form->input('event_id', array('value'=>24750,'type'=>'number'));
+		echo $this->Form->input('event_id', array('value'=>24570,'type'=>'number'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
